@@ -8,7 +8,7 @@ module.exports = defineConfig({
       require('./src/plugin')(config)
       return config
     },
-    baseUrl: process.env.HOST,
+    baseUrl: 'https://petstore.swagger.io',
     specPattern: 'cypress/integration/',
   },
   fixturesFolder: false,

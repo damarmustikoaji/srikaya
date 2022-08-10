@@ -4,7 +4,7 @@ const { randomNumber } = require('../../../support/random_characters');
 let petId;
 
 describe('@post @postUpdatePet Petstore Update Pet | POST', () => {
-    before('Preconditions delete', () => {
+    before('Preconditions update', () => {
         data.postPet.valid.id = randomNumber(100, 999)
         cy.request({
             method: 'POST', 

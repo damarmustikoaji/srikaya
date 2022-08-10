@@ -1,0 +1,26 @@
+{
+  "name": "srikaya",
+  "version": "1.0.0",
+  "description": "Automation Testing for API using cypress ~inspiration from cypress-grep",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "damar mustiko aji",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "4.3.1",
+    "dotenv": "^16.0.1",
+    "find-test-names": "^1.0.0",
+    "globby": "^11.0.4"
+  },
+  "devDependencies": {
+    "cypress": "^10.4.0",
+    "cypress-each": "^1.5.0",
+    "cypress-expect": "2.5.0",
+    "prettier": "2.3.1",
+    "semantic-release": "^19.0.3",
+    "typescript": "^4.5.4"
+  }
+}

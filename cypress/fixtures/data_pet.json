@@ -1,0 +1,48 @@
+{
+    "findByStatus": ["available", "pending", "sold"],
+    "petId": 6688,
+    "petIdNotFound": 1111,
+    "deletePetId": 20593238,
+    "name": "kambing",
+    "status": "available",
+    "postPet": {
+        "valid": {
+            "id": 123,
+            "category": {
+              "id": 11,
+              "name": "category string"
+            },
+            "name": "doggie",
+            "photoUrls": [
+              "https://www.google.com/images/branding/googlelogo/2x/googlelogo_light_color_272x92dp.png"
+            ],
+            "tags": [
+              {
+                "id": 11,
+                "name": "tags string"
+              }
+            ],
+            "status": "available"
+          }
+    },
+    "putPet": {
+        "valid": {
+            "id": 0,
+            "category": {
+              "id": 0,
+              "name": "string"
+            },
+            "name": "doggie",
+            "photoUrls": [
+              "string"
+            ],
+            "tags": [
+              {
+                "id": 0,
+                "name": "string"
+              }
+            ],
+            "status": "available"
+          }
+    }
+}

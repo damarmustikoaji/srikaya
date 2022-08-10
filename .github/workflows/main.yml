@@ -1,0 +1,25 @@
+name: Running Test
+
+on:
+  push:
+    branches: master
+  pull_request:
+    branches: master
+  schedule:
+    - cron: '30 07 * * 1-5'
+    
+env:
+  HOST: ${{ secrets.HOST }}
+
+jobs:
+  testing:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: npm cache
+      uses: actions/cache@v2
+      with:
+        path: '**/node_modules'
+        key: ${{ runner.os }}-modules-${{ hashFiles('**/lock.json') }}
+    - run: yarn install
+    - run: npx cypress run --env grep=''

@@ -1,3 +1,5 @@
+[![Running Test](https://github.com/damarmustikoaji/srikaya/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/damarmustikoaji/srikaya/actions/workflows/main.yml)
+
 # Srikaya
 
 Belajar membuat automation testing APi dengan Cypress
@@ -18,8 +20,31 @@ npx cypress run --env grep=@get
   3 pending
 ```
 
-Test:
+## Directory Structure
+
+    .
+    ├── cypress/
+    |   ├── fixtures
+    |   |   ├── data.json
+    |   |   └── .....json
+    |   ├── integration/
+    |   |   ├── get_detail.cy.js
+    |   |   └── ....cy.js
+    |   ├── support/
+    |   |   ├── random_characters.js
+    |   |   └── ....js
+    |   ├── .env
+    |   └── package.json
+    ├── src/
+    ├── .gitignore
+    ├── package.json
+    └── README.md
+
+## Workflows
+- Go to Github [Actions](https://github.com/damarmustikoaji/markisa/actions) for details
+
+## Test:
 - https://petstore.swagger.io/#/
 
-Reference:
+## Reference:
 - https://github.com/cypress-io/cypress-grep

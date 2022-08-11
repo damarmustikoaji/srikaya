@@ -41,7 +41,7 @@ npx cypress run --env grep=@get
     └── README.md
 
 ## Workflows
-- Go to Github [Actions](https://github.com/damarmustikoaji/markisa/actions) for details
+- Go to Github [Actions](https://github.com/damarmustikoaji/srikaya/actions) for details
 
 ## Test:
 - https://petstore.swagger.io/#/
